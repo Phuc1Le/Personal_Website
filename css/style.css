@@ -37,6 +37,7 @@ p { margin-top: 10px; }
 #projects { border-top: 2px solid var(--mustard); padding-top: 30px; }
 #projects > h2 { margin-bottom: 12px; }
 #projects > .entry { padding: 27px 0; border-bottom: 1px solid var(--rule); }
+#projects > .entry:last-of-type { border-bottom: 0; }
 .project-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 22px; }
 .project-heading a { text-decoration: none; }
 .project-heading a:hover { text-decoration: underline; }
